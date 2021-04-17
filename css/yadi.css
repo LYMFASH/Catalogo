@@ -1,0 +1,85 @@
+.header {
+  background-color: #222;
+  color: #999;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.header > h1 {
+  background-color: #222;
+  color: #999;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+  height: 100%;
+}
+
+.seccion {
+  min-height: 400px;
+  background-color: #fff;
+  height: auto;
+}
+
+.child-slide {
+  margin: 0;
+  padding: 0;
+}
+/*BOX INFO*/
+.box-product > h2 {
+  padding-bottom: 0;
+  padding-top: 10px;
+  font-family: Microsoft YaHei, sans-serif;
+}
+
+.box-product > p > i {
+  color: rgb(245, 57, 57);
+  font-weight: 800;
+}
+
+.box-product .product {
+  max-width: 400px;
+  width: 100%;
+}
+/*BOX INFO*/
+.box-info {
+  width: 100%;
+  height: 50vh;
+}
+
+.box-info .costo {
+  text-align: start;
+  margin: 10px;
+}
+
+.box-info .costo li > p {
+  color: rgb(24, 157, 24);
+}
+.box-info .costo > p {
+  text-align: center;
+  margin: 10px;
+}
+.box-info .colores {
+  width: 100%;
+  height: 50px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box-info .colores img {
+  display: inline-block;
+  min-width: 30px;
+  max-height: 30px;
+  padding: 30px;
+  padding: 0;
+}
+
+/*FONDO*/
+
+/*Versioncosto 2*/
+
+.costo2 {
+  text-align: center;
+  padding: 20px;
+}

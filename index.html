@@ -9,166 +9,125 @@
     />
 
     <!-- Link Swiper's CSS -->
-    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="css/styles.css" />
-    <link rel="stylesheet" href="css/yadi.css" />
+    <link rel="stylesheet" href="css/styles.min..css" />
 
     <!-- Demo styles -->
-    <style>
-      html,
-      body {
-        position: relative;
-        height: 100%;
-      }
-
-      body {
-        background: #eee;
-        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-        font-size: 14px;
-        color: #000;
-        margin: 0;
-        padding: 0;
-        overflow-y: scroll;
-        box-sizing: border-box;
-      }
-
-      .swiper-container {
-        width: 100%;
-        height: 100%;
-      }
-
-      .swiper-slide {
-        text-align: center;
-        font-size: 18px;
-        background: #fff;
-
-        /* Center slide text vertically */
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        -webkit-justify-content: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        -webkit-align-items: center;
-        align-items: center;
-      }
-    </style>
+    <style></style>
   </head>
 
   <body>
     <header class="header">
-      <h1>Catalogo LYMFASH</h1>
+      <a href="#"><img src="img/face.png" alt="" class="logo-h-p" /></a>
+      <img src="img/namelymfash2.png" alt="" class="logo-h" />
+
+      <a href="#"><img src="img/insta.png" alt="" class="logo-h-p" /></a>
     </header>
-    <main>
-      <section class="seccion">
-        <!-- Swiper -->
-        <div class="swiper-container">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="child-slide">
-                <div class="box-product">
-                  <h2>Enterizo SUN</h2>
-                  <img src="img/01.jpg" alt="" class="product" />
-                  <p><b>Material:</b> <i>Rib Acanelado</i></p>
+    <!-- Swiper -->
+    <section class="seccion">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="product">
+              <h2>Titulo</h2>
+              <div>
+                <img src="img/01.jpg" alt="" />
+                <!--
+                  <div class="info-down">
+                  <input type="button" />
                 </div>
-
-                <div class="box-info">
-                  <div class="costo">
-                    <p><b>Costo:</b></p>
-                    <ul>
-                      <li>
-                        Por unidad
-                        <p>Precio/unitario S/35</p>
-                      </li>
-                      <li>
-                        Por docena
-                        <p>Precio/unitario S/20</p>
-                      </li>
-                      <li>
-                        Por media docena
-                        <p>Precio/unitario S/22</p>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="colores">
-                    <p><b>Colores:</b></p>
-                    <img src="img/colors/01.jpg" alt="" /><img
-                      src="img/colors/03.jpg"
-                      alt=""
-                    /><img src="img/colors/02.jpg" alt="" /><img
-                      src="img/colors/07.jpg"
-                      alt=""
-                    /><img src="img/colors/04.jpg" alt="" /><img
-                      src="img/colors/06.jpg"
-                      alt=""
-                    /><img src="img/colors/05.jpg" alt="" />
-                  </div>
-                </div>
+                -->
               </div>
             </div>
-            <div class="swiper-slide">
-              <div class="child-slide">
-                <div class="box-product">
-                  <h2>Enterizo SUN</h2>
-                  <img src="img/01.jpg" alt="" class="product" />
-                  <p><b>Material:</b> <i>Rib Acanelado</i></p>
-                </div>
-
-                <div class="box-info">
-                  <div class="costo2">
-                    <table border="1" cellspacing="10" cellpadding="0">
-                      <tbody>
-                        <tr>
-                          <th>Cantidad</th>
-                          <td>Por unidad</td>
-                          <td>Por docena</td>
-                          <td>Por media docena</td>
-                        </tr>
-                        <tr>
-                          <th>Precio/unitario</th>
-                          <td>S/35</td>
-                          <td>S/20</td>
-                          <td>S/22</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <div class="colores">
-                    <p><b>Colores:</b></p>
-                    <img src="img/colors/01.jpg" alt="" /><img
-                      src="img/colors/03.jpg"
-                      alt=""
-                    /><img src="img/colors/02.jpg" alt="" /><img
-                      src="img/colors/07.jpg"
-                      alt=""
-                    /><img src="img/colors/04.jpg" alt="" /><img
-                      src="img/colors/06.jpg"
-                      alt=""
-                    /><img src="img/colors/05.jpg" alt="" />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">Slide 3</div>
           </div>
-          <!-- Add Pagination -->
-          <div class="swiper-pagination"></div>
+          <!------------------->
+          <div class="swiper-slide">
+            <div class="product">
+              <h2>Titulo</h2>
+              <div><img src="img/02.jpg" alt="" /></div>
+            </div>
+            <div class="info-product"></div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product">
+              <h2>Titulo</h2>
+              <div><img src="img/03.jpg" alt="" /></div>
+            </div>
+            <div class="info-product"></div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product">
+              <h2>Titulo</h2>
+              <div><img src="img/04.jpg" alt="" /></div>
+            </div>
+            <div class="info-product"></div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product">
+              <h2>Titulo</h2>
+              <div><img src="img/05.jpg" alt="" /></div>
+            </div>
+            <div class="info-product"></div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product">
+              <h2>Titulo</h2>
+              <div><img src="img/06.jpg" alt="" /></div>
+            </div>
+            <div class="info-product"></div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product">
+              <h2>Titulo</h2>
+              <div><img src="img/07.jpg" alt="" /></div>
+            </div>
+            <div class="info-product"></div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product">
+              <h2>Titulo</h2>
+              <div><img src="img/08.jpg" alt="" /></div>
+            </div>
+            <div class="info-product"></div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product">
+              <h2>Titulo</h2>
+              <div><img src="img/09.jpg" alt="" /></div>
+            </div>
+            <div class="info-product"></div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product">
+              <h2>Titulo</h2>
+              <div><img src="img/10.jpg" alt="" /></div>
+            </div>
+            <div class="info-product"></div>
+          </div>
         </div>
-      </section>
-    </main>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
 
     <!-- Swiper JS -->
-    <script src="js/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
     <!-- Initialize Swiper -->
     <script>
       var swiper = new Swiper(".swiper-container", {
+        slidesPerView: "auto",
+        spaceBetween: 40,
+        centeredSlides: true,
+        grabaCursor: true,
+        loop: true,
         pagination: {
           el: ".swiper-pagination",
+          clickable: true,
         },
       });
     </script>
